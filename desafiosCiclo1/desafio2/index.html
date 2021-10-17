@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="icon" class="flex"><span class="material-icons">
+        travel_explore
+        </span></div>
+    <header class="flex">
+        <h1>ME ACHA!</h1>
+        <h2>ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP</h2>
+    </header>
+    <main class="flex">
+        <div class="flex">
+            <form class="flex cep" method="post">
+                <label class="flex" for="cep">Cep</label>
+                <input type="text" class="txt flex" id="cep" name="cep" required value="">
+                <label for="rua">Rua</label>
+                <input type="text" class="txt flex" id="rua" name="rua" value="">
+                <label class="flex" for="bairro">Bairro</label>
+                <input type="text" class="txt flex" id="bairro" name="bairro" value="">
+                <label class="flex" for="cidade">Cidade</label>
+                <input type="text" class="txt flex" id="cidade" name="cidade" value="">
+                <label class="flex" for="estado">Estado</label>
+                <input type="text" class="txt flex" id="estado" name="estado" value="">
+                <input  class="flex btn" type="submit" name="enviarDados" value="BUSCAR">
+            </form>
+        </div>
+    </main>
+    
+</body>
+</html>
