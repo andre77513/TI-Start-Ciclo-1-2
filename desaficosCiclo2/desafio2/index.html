@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js"></script>
+    <title>ME ACHA</title>
+</head>
+<body>
+    <div id="icon" class="flex"><span class="material-icons">
+        travel_explore
+        </span></div>
+    <header class="flex">
+        <h1>ME ACHA!</h1>
+        <h2>ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP</h2>
+    </header>
+    <main class="flex">
+        <div class="flex">
+            <form class="flex cep">
+                <label class="flex" for="cep">Cep</label>
+                <input type="text" name="" placeholder="Digite um cep válido" id="numeroCep" >
+                <label for="logradouro">Rua</label>
+                <input type="text" class="txt flex" name="" id="logradouro" disabled>
+                <label class="flex" for="bairro">Bairro</label>
+                <input type="text" class="txt flex" id="bairro" name="" value="" disabled >
+                <label class="flex" for="localidade">Cidade</label>
+                <input type="text" class="txt flex" id="localidade" name="" value="" disabled >
+                <label class="flex" for="uf">Estado</label>
+                <input type="text" class="txt flex" id="uf" name="" value="" disabled >
+                <input  class="flex btn" type="button" id="buscarCep" value="BUSCAR">
+            </form>
+        </div>
+    </main>
+    
+</body>
+</html>
