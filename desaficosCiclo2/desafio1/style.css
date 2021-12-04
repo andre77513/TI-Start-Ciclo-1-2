@@ -57,7 +57,7 @@ h2 {
 }
 
 div {
-       flex-direction: column;
+    flex-direction: column;
     padding: 2px;
     width: 100%;
     height: auto;
