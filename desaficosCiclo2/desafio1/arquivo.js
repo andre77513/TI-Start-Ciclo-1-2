@@ -25,17 +25,8 @@ function listaDeProdutos() {
 
 const cesta = document.querySelectorAll("#produtos");
 const ulProduto = document.querySelector("#cestaDoCliente");
-const cestaDoCliente = document.querySelectorAll("#cestaDoCliente");
 
 function listarCesta() {
-    let frutas = [];
-    for (let prod of produtos) {
-        if (frutas.indexOf(prod.descricao) == -1) {
-            frutas.push(prod.descricao);
-        };
-    };
-    //console.log(frutas);
-
     cesta.forEach(lista => {
         lista.addEventListener('click', (elemento) => {
             let li = document.createElement('li');
@@ -45,7 +36,7 @@ function listarCesta() {
 };
 
 function somar() {
-    const precoProduto = document.querySelectorAll(".precoProduto > li");
+    const precoProduto = document.querySelectorAll("#produtos > li");
     const total = document.querySelector('#mostraTotalCompra');
     let soma = 0;
     precoProduto.forEach(prod => {
