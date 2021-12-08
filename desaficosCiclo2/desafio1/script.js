@@ -1,5 +1,4 @@
-import { listaDeProdutos, listarCesta, somar } from "./arquivo.js";
+import { listaDeProdutos, listarCesta } from "./arquivo.js";
 
 listarCesta();
 listaDeProdutos();
-somar();
